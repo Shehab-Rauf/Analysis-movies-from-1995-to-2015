@@ -6,7 +6,7 @@ import seaborn as sb
 
 #####################################################################################################################
 # load the data(tmdb-movies.csv)<<<<<<<<<<<<<<<<
-tmdb_data = pd.read_csv("E:\Statistics Department\Data scenice\Data Base\mdb-movies\mdb-movies.csv")
+tmdb_data = pd.read_csv("mdb-movies.csv")
 tmdb_data.head()
 #####################################################################################################################
 # pd.set_option('display.max_rows', tmdb_data.shape[0] + 1)
